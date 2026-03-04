@@ -1,0 +1,26 @@
+# Node modules
+frontend/node_modules/
+
+# Python virtual environments
+backend/venv/
+
+# Django/Misc
+*.pyc
+__pycache__/
+
+# Env files
+backend/.env
+backend/-DESKTOP-GKDLKET.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Ignore all .env except .env.example
+!backend/.env.example
